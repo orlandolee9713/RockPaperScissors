@@ -35,7 +35,48 @@ header > h1{
   padding: 15px 20px;
   font-family: 'Anton', sans-serif;
   text-shadow: 1px 1px #333333;
+  position: relative;
 }
+
 .badge{
   background-color: red;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: 'Anton', sans-serif;
+}
+
+#user-label{
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#computer-label{
+  position: absolute;
+  top: 30px;
+  right: -35px;
+}
+
+.result{
+  font-size: 40px;
+  color: white;
+}
+
+.result > p{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}
+
+.selections{
+  margin: 50px 0;
+  text-align: center;
+}
+
+.selection{
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 20px;
 }
